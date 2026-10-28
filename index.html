@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ky">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Shop</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        text-align: center;
+      }
+      header {
+        background: #222;
+        color: white;
+        padding: 40px 20px;
+      }
+      header p {
+        color: #f5a623;
+        margin-top: 8px;
+      }
+      .cars {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 30px;
+      }
+      .car {
+        background: white;
+        width: 220px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px #0003;
+      }
+      .car span {
+        font-size: 60px;
+      }
+      .car b {
+        display: block;
+        margin: 8px 0;
+        color: #f5a623;
+      }
+      button {
+        padding: 8px 16px;
+        background: #222;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #f5a623;
+      }
+      footer {
+        background: #222;
+        color: white;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🚗 Car Shop</h1>
+      <p>Өзүңүздүн машинаңызды табыңыз!</p>
+    </header>
+
+    <div class="cars">
+      <div class="car">
+        <span>🚙</span>
+        <h3>Toyota Camry</h3>
+        <b>$15 000</b><button>Сатып алуу</button>
+      </div>
+      <div class="car">
+        <span>🚗</span>
+        <h3>Honda Fit</h3>
+        <b>$8 500</b><button>Сатып алуу</button>
+      </div>
+      <div class="car">
+        <span>🏎️</span>
+        <h3>BMW M5</h3>
+        <b>$40 000</b><button>Сатып алуу</button>
+      </div>
+    </div>
+
+    <footer>© 2026 Car Shop</footer>
+  </body>
+</html>
